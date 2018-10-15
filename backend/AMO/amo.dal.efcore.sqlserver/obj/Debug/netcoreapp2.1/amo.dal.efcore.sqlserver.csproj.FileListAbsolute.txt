@@ -1,0 +1,6 @@
+D:\vue\AMO\amo\backend\AMO\amo.dal.efcore.sqlserver\bin\Debug\netcoreapp2.1\amo.dal.efcore.sqlserver.deps.json
+D:\vue\AMO\amo\backend\AMO\amo.dal.efcore.sqlserver\bin\Debug\netcoreapp2.1\amo.dal.efcore.sqlserver.dll
+D:\vue\AMO\amo\backend\AMO\amo.dal.efcore.sqlserver\obj\Debug\netcoreapp2.1\amo.dal.efcore.sqlserver.csprojAssemblyReference.cache
+D:\vue\AMO\amo\backend\AMO\amo.dal.efcore.sqlserver\obj\Debug\netcoreapp2.1\amo.dal.efcore.sqlserver.csproj.CoreCompileInputs.cache
+D:\vue\AMO\amo\backend\AMO\amo.dal.efcore.sqlserver\obj\Debug\netcoreapp2.1\amo.dal.efcore.sqlserver.AssemblyInfoInputs.cache
+D:\vue\AMO\amo\backend\AMO\amo.dal.efcore.sqlserver\obj\Debug\netcoreapp2.1\amo.dal.efcore.sqlserver.AssemblyInfo.cs

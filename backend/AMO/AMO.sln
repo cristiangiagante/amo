@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{02ED1D14-7EC9-47C0-8FC0-62FCF67D186B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{FDC050CE-55FD-4102-BE8E-D63A800161E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{D79A0647-0157-432E-80C4-B2AD9CD109EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SERVICES", "SERVICES", "{A6E346C6-9C6C-46C8-A90F-60C4DEB9F951}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "webapp", "..\..\webapp\", "{1612FB4D-5FBD-436C-9452-FD28A117216D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60323"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\webapp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60323\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60323"
+		Release.AspNetCompiler.PhysicalPath = "..\..\webapp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60323\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60323"
+		SlnRelativePath = "..\..\webapp\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amo.bll.turns", "amo.bll.turns\amo.bll.turns.csproj", "{2F8EDC1D-CA27-4C5F-8AE8-BD6DC075E47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amo.bll.notifications", "amo.bll.notifications\amo.bll.notifications.csproj", "{C1F79373-BB97-49C2-94A9-9E88FAD5F8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amo.services.webapi", "amo.services.webapi\amo.services.webapi.csproj", "{B346E41A-943F-447A-9463-2945E5011C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amo.dal.efcore.sqlserver", "amo.dal.efcore.sqlserver\amo.dal.efcore.sqlserver.csproj", "{FAFC803B-1545-4DD1-B450-5DCA15884D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1612FB4D-5FBD-436C-9452-FD28A117216D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1612FB4D-5FBD-436C-9452-FD28A117216D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1612FB4D-5FBD-436C-9452-FD28A117216D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1612FB4D-5FBD-436C-9452-FD28A117216D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2F8EDC1D-CA27-4C5F-8AE8-BD6DC075E47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8EDC1D-CA27-4C5F-8AE8-BD6DC075E47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8EDC1D-CA27-4C5F-8AE8-BD6DC075E47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8EDC1D-CA27-4C5F-8AE8-BD6DC075E47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F79373-BB97-49C2-94A9-9E88FAD5F8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F79373-BB97-49C2-94A9-9E88FAD5F8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F79373-BB97-49C2-94A9-9E88FAD5F8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F79373-BB97-49C2-94A9-9E88FAD5F8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B346E41A-943F-447A-9463-2945E5011C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B346E41A-943F-447A-9463-2945E5011C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B346E41A-943F-447A-9463-2945E5011C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B346E41A-943F-447A-9463-2945E5011C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFC803B-1545-4DD1-B450-5DCA15884D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFC803B-1545-4DD1-B450-5DCA15884D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFC803B-1545-4DD1-B450-5DCA15884D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFC803B-1545-4DD1-B450-5DCA15884D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1612FB4D-5FBD-436C-9452-FD28A117216D} = {02ED1D14-7EC9-47C0-8FC0-62FCF67D186B}
+		{2F8EDC1D-CA27-4C5F-8AE8-BD6DC075E47E} = {D79A0647-0157-432E-80C4-B2AD9CD109EF}
+		{C1F79373-BB97-49C2-94A9-9E88FAD5F8AD} = {D79A0647-0157-432E-80C4-B2AD9CD109EF}
+		{B346E41A-943F-447A-9463-2945E5011C4F} = {A6E346C6-9C6C-46C8-A90F-60C4DEB9F951}
+		{FAFC803B-1545-4DD1-B450-5DCA15884D40} = {FDC050CE-55FD-4102-BE8E-D63A800161E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {282ACB11-7E02-4DFC-B1F8-5BB279C534B4}
+	EndGlobalSection
+EndGlobal

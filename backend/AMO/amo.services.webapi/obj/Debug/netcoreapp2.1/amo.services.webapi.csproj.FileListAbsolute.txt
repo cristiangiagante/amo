@@ -1,0 +1,3 @@
+D:\vue\AMO\amo\backend\AMO\amo.services.webapi\obj\Debug\netcoreapp2.1\amo.services.webapi.csproj.CoreCompileInputs.cache
+D:\vue\AMO\amo\backend\AMO\amo.services.webapi\obj\Debug\netcoreapp2.1\amo.services.webapi.AssemblyInfoInputs.cache
+D:\vue\AMO\amo\backend\AMO\amo.services.webapi\obj\Debug\netcoreapp2.1\amo.services.webapi.AssemblyInfo.cs
